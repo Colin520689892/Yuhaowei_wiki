@@ -1,7 +1,7 @@
 site_name: Yuhaowei Wiki
 site_url: https://colin520689892.github.io/Yuhaowei_wiki/
-repo_url: https://github.com/WeYoung-learn/WeYoung-learn.github.io
-repo_name: WeYoung-learn
+repo_url: https://github.com/Colin520689892/Yuhaowei_wiki
+repo_name: Yuhaowei Wiki
 
 theme:
   name: material
@@ -71,9 +71,9 @@ extra_javascript:
 
 nav:
   - 首页:
-      - 欢迎来到未央学习: "index.md"
-      - 读者须知: "reader.md"
-      - 加入我们！: "author.md"
+      - 我是作者Yuhaowei: "skills/index.md"
+      - 不知道: "skills/reader.md"
+      - 测试一下！: "skills/author.md"
   - 课程指引:
       - 介绍: "courses/index.md"
       - 基础课:
