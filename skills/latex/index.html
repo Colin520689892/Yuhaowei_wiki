@@ -1,0 +1,1970 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://colin520689892.github.io/Yuhaowei_wiki/skills/latex/">
+      
+      
+        <link rel="prev" href="../endnote/">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>LaTeX代码大全 - Yuhaowei Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="Yuhaowei Wiki" class="md-header__button md-logo" aria-label="Yuhaowei Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5zM6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2zm3-4v-2H6v2z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Yuhaowei Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              LaTeX代码大全
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="indigo"  aria-label="dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="indigo"  aria-label="light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Colin520689892/Yuhaowei_wiki" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Yuhaowei Wiki
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+  首页
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../courses/" class="md-tabs__link">
+          
+  
+  
+  考研笔记
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  一些技能
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Yuhaowei Wiki" class="md-nav__button md-logo" aria-label="Yuhaowei Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5zM6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2zm3-4v-2H6v2z"/></svg>
+
+    </a>
+    Yuhaowei Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Colin520689892/Yuhaowei_wiki" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Yuhaowei Wiki
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    首页
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            首页
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    我是作者Yuhaowei
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reader/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    留白
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../author/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    留白
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    考研笔记
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            考研笔记
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../courses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    介绍
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    考研数学
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            考研数学
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_1" id="__nav_2_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    高数
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            高数
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../courses/basic/maths/%E9%AB%98%E6%95%B0/%E5%87%BD%E6%95%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    映射与函数
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../courses/basic/maths/%E9%AB%98%E6%95%B0/%E6%95%B0%E5%88%97/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    数列极限
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../courses/basic/maths/%E9%AB%98%E6%95%B0/%E5%87%BD%E6%95%B0%E7%9A%84%E6%9E%81%E9%99%90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    函数的极限
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../courses/basic/maths/%E9%AB%98%E6%95%B0/%E6%97%A0%E7%A9%B7%E5%A4%A7%E6%97%A0%E7%A9%B7%E5%B0%8F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    无穷小与无穷大
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../courses/basic/maths/%E9%AB%98%E6%95%B0/%E6%9E%81%E9%99%90%E8%BF%90%E7%AE%97%E6%B3%95%E5%88%99/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    极限运算法则
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../courses/basic/maths/%E9%AB%98%E6%95%B0/%E6%9E%81%E9%99%90%E5%AD%98%E5%9C%A8%E6%B3%95%E5%88%99/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    极限存在法则
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../courses/basic/maths/%E9%AB%98%E6%95%B0/%E6%97%A0%E7%A9%B7%E5%B0%8F%E7%9A%84%E6%AF%94%E8%BE%83/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    无穷小的比较
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../courses/basic/maths/%E9%AB%98%E6%95%B0/%E5%87%BD%E6%95%B0%E7%9A%84%E8%BF%9E%E7%BB%AD%E6%80%A7%E4%B8%8E%E9%97%B4%E6%96%AD%E7%82%B9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    函数的连续性与间断点
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    一些技能
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            一些技能
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    介绍
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mkdocs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    mkdocs：搭建一个属于你的小网站
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../markdown/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Markdown：无纸化学习必备
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../endnote/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    EndNote： 你的宝藏文献管理工具
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    LaTeX代码大全
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    LaTeX代码大全
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      包含与子集符号
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      其他常用集合符号
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      其他常见的数学符号
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      数学运算符
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-forall" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. 对所有（\( \forall \)）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 存在（\( \exists \)）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 存在唯一（\( \exists! \)）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-forall-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. 对于所有（\( \forall \)）与 存在（\( \exists \)）的组合
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. 对于某些（\( \exists \)）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-nexists" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. 否定存在（\( \nexists \)）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. 希腊字母
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. 希腊字母">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      小写希腊字母：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      大写希腊字母：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      示例：
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 数学符号
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 数学符号">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      算数符号：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      常用数学符号：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      示例：
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 箭头符号
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 箭头符号">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      示例：
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. 逻辑符号
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. 逻辑符号">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      示例：
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. 其他常见符号
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. 其他常见符号">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      示例：
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      包含与子集符号
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      其他常用集合符号
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      其他常见的数学符号
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      数学运算符
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-forall" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. 对所有（\( \forall \)）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 存在（\( \exists \)）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 存在唯一（\( \exists! \)）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-forall-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. 对于所有（\( \forall \)）与 存在（\( \exists \)）的组合
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. 对于某些（\( \exists \)）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-nexists" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. 否定存在（\( \nexists \)）
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. 希腊字母
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. 希腊字母">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      小写希腊字母：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      大写希腊字母：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      示例：
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. 数学符号
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 数学符号">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      算数符号：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      常用数学符号：
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      示例：
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. 箭头符号
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 箭头符号">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      示例：
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. 逻辑符号
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. 逻辑符号">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      示例：
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. 其他常见符号
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. 其他常见符号">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      示例：
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+  <h1>LaTeX代码大全</h1>
+
+<p>有关latex的一些基本代码,如果你需要在markdown中使用,只需要加上$$这个符号即可</p>
+<h3 id="_1">包含与子集符号</h3>
+<ol>
+<li>
+<p><strong>子集</strong>（<span class="arithmatex">\( A \subseteq B \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>A <span class="k">\subseteq</span> B
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>严格子集</strong>（<span class="arithmatex">\( A \subset B \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>A <span class="k">\subset</span> B
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>真子集</strong>（<span class="arithmatex">\( A \subsetneq B \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>A <span class="k">\subsetneq</span> B
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>超集</strong>（<span class="arithmatex">\( A \supseteq B \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>A <span class="k">\supseteq</span> B
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>严格超集</strong>（<span class="arithmatex">\( A \supset B \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>A <span class="k">\supset</span> B
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>真超集</strong>（<span class="arithmatex">\( A \supsetneq B \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>A <span class="k">\supsetneq</span> B
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>部分包含</strong>（<span class="arithmatex">\( A \subsetneq B \)</span> 或 <span class="arithmatex">\( A \subseteq B \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>A <span class="k">\subsetneq</span> B <span class="k">\quad</span> <span class="k">\text</span><span class="nb">{</span>or<span class="nb">}</span> <span class="k">\quad</span> A <span class="k">\subseteq</span> B
+</code></pre></div></p>
+</li>
+</ol>
+<h3 id="_2">其他常用集合符号</h3>
+<ol>
+<li>
+<p><strong>属于</strong>（<span class="arithmatex">\( x \in A \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>x <span class="k">\in</span> A
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>不属于</strong>（<span class="arithmatex">\( x \notin A \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>x <span class="k">\notin</span> A
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>交集</strong>（<span class="arithmatex">\( A \cap B \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>A <span class="k">\cap</span> B
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>并集</strong>（<span class="arithmatex">\( A \cup B \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>A <span class="k">\cup</span> B
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>空集</strong>（<span class="arithmatex">\( \emptyset \)</span> 或 <span class="arithmatex">\( \varnothing \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="k">\emptyset</span> <span class="k">\quad</span> <span class="k">\text</span><span class="nb">{</span>or<span class="nb">}</span> <span class="k">\quad</span> <span class="k">\varnothing</span>
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>全集</strong>（<span class="arithmatex">\( \mathbb{U} \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="k">\mathbb</span><span class="nb">{</span>U<span class="nb">}</span>
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>补集</strong>（<span class="arithmatex">\( A^c \)</span> 或 <span class="arithmatex">\( \bar{A} \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>A<span class="nb">^</span>c <span class="k">\quad</span> <span class="k">\text</span><span class="nb">{</span>or<span class="nb">}</span> <span class="k">\quad</span> <span class="k">\bar</span><span class="nb">{</span>A<span class="nb">}</span>
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>集合差</strong>（<span class="arithmatex">\( A \setminus B \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>A <span class="k">\setminus</span> B
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>笛卡尔积</strong>（<span class="arithmatex">\( A \times B \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>A <span class="k">\times</span> B
+</code></pre></div></p>
+</li>
+</ol>
+<h3 id="_3">其他常见的数学符号</h3>
+<ol>
+<li>
+<p><strong>等于</strong>（<span class="arithmatex">\( = \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>=
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>不等于</strong>（<span class="arithmatex">\( \neq \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="k">\neq</span>
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>大于</strong>（<span class="arithmatex">\( &gt; \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>&gt;
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>小于</strong>（<span class="arithmatex">\( &lt; \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>&lt;
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>大于等于</strong>（<span class="arithmatex">\( \geq \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="k">\geq</span>
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>小于等于</strong>（<span class="arithmatex">\( \leq \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="k">\leq</span>
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>大于符号（严格）</strong>（<span class="arithmatex">\( \gg \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a><span class="k">\gg</span>
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>小于符号（严格）</strong>（<span class="arithmatex">\( \ll \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a><span class="k">\ll</span>
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>同余</strong>（<span class="arithmatex">\( \equiv \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a><span class="k">\equiv</span>
+</code></pre></div></p>
+</li>
+</ol>
+<h3 id="_4">数学运算符</h3>
+<ol>
+<li>
+<p><strong>求和</strong>（<span class="arithmatex">\( \sum \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="k">\sum_</span><span class="nb">{</span>i=1<span class="nb">}^{</span>n<span class="nb">}</span> x<span class="nb">_</span>i
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>积分</strong>（<span class="arithmatex">\( \int \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a><span class="k">\int_</span><span class="nb">{</span>a<span class="nb">}^{</span>b<span class="nb">}</span> f(x) <span class="k">\,</span> dx
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>极限</strong>（<span class="arithmatex">\( \lim \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a><span class="k">\lim_</span><span class="nb">{</span>x <span class="k">\to</span> <span class="k">\infty</span><span class="nb">}</span> f(x)
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>乘积符号</strong>（<span class="arithmatex">\( \prod \)</span>）：<br />
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a><span class="k">\prod_</span><span class="nb">{</span>i=1<span class="nb">}^{</span>n<span class="nb">}</span> x<span class="nb">_</span>i
+</code></pre></div></p>
+</li>
+</ol>
+<p>在LaTeX中，除了 <strong>对所有</strong> (<span class="arithmatex">\( \forall \)</span>) 符号外，还有一些常见的量化符号，用于数学逻辑和集合论中。以下是几种常见的表达量化的符号及其用法：</p>
+<h3 id="1-forall">1. <strong>对所有</strong>（<span class="arithmatex">\( \forall \)</span>）</h3>
+<p>表示“对于所有的”。这是最常见的量化符号之一，用于表达“对于每个元素都满足某条件”。</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a><span class="k">\forall</span> x <span class="k">\in</span> A
+</code></pre></div>
+这表示“对于所有 <span class="arithmatex">\( x \)</span> 属于 <span class="arithmatex">\( A \)</span>”。</p>
+<h3 id="2-exists">2. <strong>存在</strong>（<span class="arithmatex">\( \exists \)</span>）</h3>
+<p>表示“存在某个元素”。这个符号表示在某个集合中至少存在一个满足某个条件的元素。</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a><span class="k">\exists</span> x <span class="k">\in</span> A
+</code></pre></div>
+这表示“存在某个 <span class="arithmatex">\( x \)</span> 属于 <span class="arithmatex">\( A \)</span>”。</p>
+<h3 id="3-exists">3. <strong>存在唯一</strong>（<span class="arithmatex">\( \exists! \)</span>）</h3>
+<p>表示“存在唯一”。这个符号通常用于表示存在唯一的某个元素满足某个条件。</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a><span class="k">\exists</span>! x <span class="k">\in</span> A
+</code></pre></div>
+这表示“存在唯一的 <span class="arithmatex">\( x \)</span> 属于 <span class="arithmatex">\( A \)</span>”。</p>
+<h3 id="4-forall-exists">4. <strong>对于所有</strong>（<span class="arithmatex">\( \forall \)</span>）与 <strong>存在</strong>（<span class="arithmatex">\( \exists \)</span>）的组合</h3>
+<p>有时我们需要组合这两个符号来表示“对于所有的 <span class="arithmatex">\( x \)</span>，存在某个 <span class="arithmatex">\( y \)</span>”这样的情况。</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a><span class="k">\forall</span> x <span class="k">\in</span> A, <span class="k">\exists</span> y <span class="k">\in</span> B
+</code></pre></div>
+这表示“对于所有 <span class="arithmatex">\( x \)</span> 属于 <span class="arithmatex">\( A \)</span>，存在某个 <span class="arithmatex">\( y \)</span> 属于 <span class="arithmatex">\( B \)</span>”。</p>
+<h3 id="5-exists">5. <strong>对于某些</strong>（<span class="arithmatex">\( \exists \)</span>）</h3>
+<p>用于表示某个条件下可能会有满足条件的元素，但没有强制要求全部元素满足。</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a><span class="k">\exists</span> x <span class="k">\in</span> A <span class="k">\text</span><span class="nb">{</span> such that <span class="nb">}</span> x<span class="nb">^</span>2 = 4
+</code></pre></div>
+这表示“存在某个 <span class="arithmatex">\( x \)</span> 属于 <span class="arithmatex">\( A \)</span>，使得 <span class="arithmatex">\( x^2 = 4 \)</span>”。</p>
+<h3 id="6-nexists">6. <strong>否定存在</strong>（<span class="arithmatex">\( \nexists \)</span>）</h3>
+<p>表示“不存在”。当你需要表示某个元素不满足某个条件时，可以使用这个符号。</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a><span class="k">\nexists</span> x <span class="k">\in</span> A <span class="k">\text</span><span class="nb">{</span> such that <span class="nb">}</span> x<span class="nb">^</span>2 = -1
+</code></pre></div>
+这表示“不存在某个 <span class="arithmatex">\( x \)</span> 属于 <span class="arithmatex">\( A \)</span>，使得 <span class="arithmatex">\( x^2 = -1 \)</span>”。</p>
+<p>这些量化符号在逻辑学、数学分析和集合论中都非常常见。如果你有其他符号或表达方式需要了解，随时告诉我！</p>
+<p>在LaTeX中，你可以使用特定的命令来打印希腊字母和数学符号。下面是一些常用的希腊字母和数学符号的命令：</p>
+<h3 id="1">1. <strong>希腊字母</strong></h3>
+<p>希腊字母在LaTeX中有对应的命令。常见的希腊字母有：</p>
+<h4 id="_5">小写希腊字母：</h4>
+<ul>
+<li><span class="arithmatex">\( \alpha \)</span> : <code>\alpha</code></li>
+<li><span class="arithmatex">\( \beta \)</span> : <code>\beta</code></li>
+<li><span class="arithmatex">\( \gamma \)</span> : <code>\gamma</code></li>
+<li><span class="arithmatex">\( \ \)</span> : <code>\</code></li>
+<li><span class="arithmatex">\( \epsilon \)</span> : <code>\epsilon</code></li>
+<li><span class="arithmatex">\( \zeta \)</span> : <code>\zeta</code></li>
+<li><span class="arithmatex">\( \eta \)</span> : <code>\eta</code></li>
+<li><span class="arithmatex">\( \theta \)</span> : <code>\theta</code></li>
+<li><span class="arithmatex">\( \lambda \)</span> : <code>\lambda</code></li>
+<li><span class="arithmatex">\( \mu \)</span> : <code>\mu</code></li>
+<li><span class="arithmatex">\( \pi \)</span> : <code>\pi</code></li>
+<li><span class="arithmatex">\( \rho \)</span> : <code>\rho</code></li>
+<li><span class="arithmatex">\( \sigma \)</span> : <code>\sigma</code></li>
+<li><span class="arithmatex">\( \phi \)</span> : <code>\phi</code></li>
+<li><span class="arithmatex">\( \psi \)</span> : <code>\psi</code></li>
+<li><span class="arithmatex">\( \omega \)</span> : <code>\omega</code></li>
+</ul>
+<h4 id="_6">大写希腊字母：</h4>
+<ul>
+<li><span class="arithmatex">\( \Gamma \)</span> : <code>\Gamma</code></li>
+<li><span class="arithmatex">\( \Delta \)</span> : <code>\Delta</code></li>
+<li><span class="arithmatex">\( \Theta \)</span> : <code>\Theta</code></li>
+<li><span class="arithmatex">\( \Lambda \)</span> : <code>\Lambda</code></li>
+<li><span class="arithmatex">\( \Xi \)</span> : <code>\Xi</code></li>
+<li><span class="arithmatex">\( \Pi \)</span> : <code>\Pi</code></li>
+<li><span class="arithmatex">\( \Sigma \)</span> : <code>\Sigma</code></li>
+<li><span class="arithmatex">\( \Phi \)</span> : <code>\Phi</code></li>
+<li><span class="arithmatex">\( \Psi \)</span> : <code>\Psi</code></li>
+<li><span class="arithmatex">\( \Omega \)</span> : <code>\Omega</code></li>
+</ul>
+<h4 id="_7">示例：</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a><span class="k">\alpha</span>, <span class="k">\beta</span>, <span class="k">\gamma</span>, <span class="k">\,</span> <span class="k">\pi</span>, <span class="k">\Sigma</span>
+</code></pre></div>
+<p>这会显示为：<span class="arithmatex">\( \alpha, \beta, \gamma, \, \pi, \Sigma \)</span></p>
+<h3 id="2">2. <strong>数学符号</strong></h3>
+<p>在LaTeX中，有许多常见的数学符号，可以使用如下命令：</p>
+<h4 id="_8">算数符号：</h4>
+<ul>
+<li><span class="arithmatex">\( + \)</span> : <code>+</code></li>
+<li><span class="arithmatex">\( - \)</span> : <code>-</code></li>
+<li><span class="arithmatex">\( \times \)</span> : <code>\times</code> （乘法符号）</li>
+<li><span class="arithmatex">\( \div \)</span> : <code>\div</code> （除法符号）</li>
+<li><span class="arithmatex">\( = \)</span> : <code>=</code></li>
+<li><span class="arithmatex">\( \neq \)</span> : <code>\neq</code> （不等于符号）</li>
+<li><span class="arithmatex">\( &lt; \)</span> : <code>&lt;</code></li>
+<li><span class="arithmatex">\( &gt; \)</span> : <code>&gt;</code></li>
+<li><span class="arithmatex">\( \leq \)</span> : <code>\leq</code> （小于等于）</li>
+<li><span class="arithmatex">\( \geq \)</span> : <code>\geq</code> （大于等于）</li>
+</ul>
+<h4 id="_9">常用数学符号：</h4>
+<ul>
+<li><span class="arithmatex">\( \infty \)</span> : <code>\infty</code> （无穷大）</li>
+<li><span class="arithmatex">\( \sum \)</span> : <code>\sum</code> （求和符号）</li>
+<li><span class="arithmatex">\( \int \)</span> : <code>\int</code> （积分符号）</li>
+<li><span class="arithmatex">\( \partial \)</span> : <code>\partial</code> （偏导符号）</li>
+<li><span class="arithmatex">\( \nabla \)</span> : <code>\nabla</code> （梯度符号）</li>
+<li><span class="arithmatex">\( \sqrt{} \)</span> : <code>\sqrt{}</code> （平方根）</li>
+<li><span class="arithmatex">\( \frac{}{} \)</span> : <code>\frac{}{}</code> （分数）</li>
+</ul>
+<h4 id="_10">示例：</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a><span class="k">\sum_</span><span class="nb">{</span>i=1<span class="nb">}^{</span>n<span class="nb">}</span> x<span class="nb">_</span>i, <span class="k">\int_</span>0<span class="nb">^</span>1 x<span class="nb">^</span>2 dx, <span class="k">\sqrt</span><span class="nb">{</span>x<span class="nb">}</span>, <span class="k">\frac</span><span class="nb">{</span>a<span class="nb">}{</span>b<span class="nb">}</span>
+</code></pre></div>
+<p>这会显示为：
+[
+\sum_{i=1}^{n} x_i, \int_0^1 x^2 dx, \sqrt{x}, \frac{a}{b}
+]</p>
+<h3 id="3">3. <strong>箭头符号</strong></h3>
+<ul>
+<li><span class="arithmatex">\( \rightarrow \)</span> : <code>\rightarrow</code> （右箭头）</li>
+<li><span class="arithmatex">\( \leftarrow \)</span> : <code>\leftarrow</code> （左箭头）</li>
+<li><span class="arithmatex">\( \Rightarrow \)</span> : <code>\Rightarrow</code> （双向右箭头）</li>
+<li><span class="arithmatex">\( \Leftrightarrow \)</span> : <code>\Leftrightarrow</code> （双向左箭头）</li>
+</ul>
+<h4 id="_11">示例：</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a>A <span class="k">\rightarrow</span> B, A <span class="k">\Rightarrow</span> B, A <span class="k">\Leftrightarrow</span> B
+</code></pre></div>
+<p>这会显示为：
+[
+A \rightarrow B, A \Rightarrow B, A \Leftrightarrow B
+]</p>
+<h3 id="4">4. <strong>逻辑符号</strong></h3>
+<ul>
+<li><span class="arithmatex">\( \neg \)</span> : <code>\neg</code> （逻辑非）</li>
+<li><span class="arithmatex">\( \land \)</span> : <code>\land</code> （与）</li>
+<li><span class="arithmatex">\( \lor \)</span> : <code>\lor</code> （或）</li>
+<li><span class="arithmatex">\( \forall \)</span> : <code>\forall</code> （全称量词）</li>
+<li><span class="arithmatex">\( \exists \)</span> : <code>\exists</code> （存在量词）</li>
+</ul>
+<h4 id="_12">示例：</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-38-1" name="__codelineno-38-1" href="#__codelineno-38-1"></a><span class="k">\neg</span> A, A <span class="k">\land</span> B, A <span class="k">\lor</span> B, <span class="k">\forall</span> x, <span class="k">\exists</span> y
+</code></pre></div>
+<p>这会显示为：
+[
+\neg A, A \land B, A \lor B, \forall x, \exists y
+]</p>
+<h3 id="5">5. <strong>其他常见符号</strong></h3>
+<ul>
+<li><span class="arithmatex">\( \mathbb{R} \)</span> : <code>\mathbb{R}</code> （实数集）</li>
+<li><span class="arithmatex">\( \mathbb{N} \)</span> : <code>\mathbb{N}</code> （自然数集）</li>
+<li><span class="arithmatex">\( \mathbb{Z} \)</span> : <code>\mathbb{Z}</code> （整数集）</li>
+<li><span class="arithmatex">\( \mathcal{L} \)</span> : <code>\mathcal{L}</code> （某些数学字体）</li>
+</ul>
+<h4 id="_13">示例：</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-39-1" name="__codelineno-39-1" href="#__codelineno-39-1"></a><span class="k">\mathbb</span><span class="nb">{</span>R<span class="nb">}</span>, <span class="k">\mathbb</span><span class="nb">{</span>N<span class="nb">}</span>, <span class="k">\mathcal</span><span class="nb">{</span>L<span class="nb">}</span>
+</code></pre></div>
+<p>这会显示为：
+[
+\mathbb{R}, \mathbb{N}, \mathcal{L}
+]</p>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "navigation", "navigation.top"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
